@@ -1,6 +1,7 @@
 # Compiled class file
 *.class
 
+*/.idea
 # Log file
 *.log
 
@@ -52,9 +53,9 @@ hs_err_pid*
 # When using Gradle or Maven with auto-import, you should exclude module files,
 # since they will be recreated, and may cause churn.  Uncomment if using
 # auto-import.
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
+ .idea/modules.xml
+ .idea/*.iml
+ .idea/modules
 
 # CMake
 cmake-build-*/
@@ -64,6 +65,7 @@ cmake-build-*/
 
 # File-based project format
 *.iws
+*.iml
 
 # IntelliJ
 out/
